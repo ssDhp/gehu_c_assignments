@@ -1,3 +1,5 @@
+// Write a program to print the value and size of different data types (Use size of operator).
+
 #include <stdio.h>
 
 int main(){

@@ -1,3 +1,5 @@
+// Write a program to calculate total salary based upon the following: HRA = 3 % of Basic salary, TA = 5 % of Basic salary, DA = 3 % of Basic salary
+
 #include <stdio.h>
 
 int main(){

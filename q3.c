@@ -1,3 +1,5 @@
+// Write a program to calculate Simple and Compound Interest.
+
 #include <stdio.h>
 #include <math.h>
 
