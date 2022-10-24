@@ -1,4 +1,4 @@
-// Program to display even numbers between1-20
+// Program to display even numbers between 1-20
 
 #include <stdio.h>
 
