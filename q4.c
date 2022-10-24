@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int baseSalary;
     float hra, ta, da, totalSalary;
     printf("Enter your base salary: ");
@@ -12,6 +13,5 @@ int main(){
     da = 0.03 * baseSalary;
     totalSalary = baseSalary + hra + ta + da;
     printf("Base salary: %d\n\tHRA: %.2f\n\tTA: %.2f\n\tDA: %.2f\nTotal Salary: %.2f", baseSalary, hra, ta, da, totalSalary);
-
     return 0;
 }

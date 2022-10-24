@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int a = 10;
     printf("Value of a number 'A' is %d.\n", a);
     printf("Increment operator (++a): Increase value then use the value\n");

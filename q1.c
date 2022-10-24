@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
     printf("Size of char: %d bytes.\n\n", sizeof(char));
     printf("Size of short int: %d bytes.\n", sizeof(short int));
     printf("Size of int: %d bytes.\n", sizeof(int));

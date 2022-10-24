@@ -1,10 +1,14 @@
+// Write a C program to check whether input alphabet is a vowel or not
+
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char c;
     printf("Enter a character: ");
     scanf("%c", &c);
-    switch (c){
+    switch (c)
+    {
     case 'a':
     case 'e':
     case 'i':
@@ -17,7 +21,7 @@ int main(){
     case 'U':
         printf("'%c' is a vowel!\n", c);
         break;
-    
+
     default:
         printf("'%c' is a consonant!\n", c);
         break;

@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int usrInp, nod, now, nom, noy, daysLeft;
     printf("Enter number of days: ");
     scanf("%d", &usrInp);
