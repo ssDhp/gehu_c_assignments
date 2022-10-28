@@ -24,6 +24,7 @@ int main()
         temp = temp * 10 + (n % 10);
         n /= 10;
     }
+    // For trailing zeros in num
     zeros = order(num) - order(temp);
     while (temp)
     {
