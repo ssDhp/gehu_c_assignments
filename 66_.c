@@ -8,23 +8,20 @@ void printc(char *ch, int times)
     {
         printf("%s", ch);
     }
+    printf("\n");
 }
 
 int main()
 {
-    int row, i;
+    int num, count = 2, x = 0, y = 1;
     printf("Enter a number: ");
-    scanf("%d", &row);
-    int nos = row - 1;
-    int noc = 1;
-    for (size_t i = 0; i < row; i++)
+    scanf("%d", &num);
+    printc("*", y);
+    for (count = 2; count < num; count++)
     {
-        printc(" ", nos);
-        printc("*", noc);
-        printf("\n");
-        nos--;
-        noc += 2;
+        y = x + y;
+        x = y - x;
+        printc("*", y);
     }
-
     return 0;
 }
