@@ -22,7 +22,6 @@ void main()
         else
             printf("\n");
     }
-    printf("\n");
     for (k = 0; k < size; k++)
     {
         sum += arr[k];
