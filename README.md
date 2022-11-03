@@ -1,2 +1,2 @@
 # gehu_c_assignments
-Solution for all 85 questions from the question bank.
+Solutions for all 85 questions from the C question bank.
