@@ -4,13 +4,18 @@
 
 int main()
 {
-    printf("Size of char: %d bytes.\n\n", sizeof(char));
-    printf("Size of short int: %d bytes.\n", sizeof(short int));
-    printf("Size of int: %d bytes.\n", sizeof(int));
-    printf("Size of long int: %d bytes.\n", sizeof(long int));
-    printf("Size of long long int: %d bytes.\n\n", sizeof(long long int));
-    printf("Size of float: %d bytes.\n", sizeof(float));
-    printf("Size of double: %d bytes.\n", sizeof(double));
-    printf("Size of long double: %d bytes.\n\n", sizeof(long double));
+    char a;
+    int b;
+    float c;
+    printf("Enter a character: ");
+    scanf("%c", &a);
+    printf("Enter a integer: ");
+    scanf("%d", &b);
+    printf("Enter a float: ");
+    scanf("%f", &c);
+    printf("Value \t Datatype \t Size\n");
+    printf("%c \t char \t\t %d bytes\n", a, sizeof(a));
+    printf("%d \t int \t\t %d bytes\n", b, sizeof(b));
+    printf("%.3f \t float \t\t %d bytes\n", c, sizeof(c));
     return 0;
 }

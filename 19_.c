@@ -1,37 +1,23 @@
 // Write a C program to print greater.
 
-// NOTE: Question 19 to 22 are same but with different implementations.
-
 #include <stdio.h>
 
 int main()
 {
-    int a, b, c, largest;
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
+    int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
     if (a > b)
     {
-        if (a > c)
-        {
-            largest = a;
-        }
-        else
-        {
-            largest = c;
-        }
+        printf("%d is greater than %d", a, b);
+    }
+    else if (a == b)
+    {
+        printf("%d and %d are equal", a, b);
     }
     else
     {
-        if (b > c)
-        {
-            largest = b;
-        }
-        else
-        {
-            largest = c;
-        }
+        printf("%d is greater than %d", b, a);
     }
-    largest = a > b ? (a > c ? a : c) : (b > c ? b : c);
-    printf("Largest is: %d", largest);
     return 0;
 }

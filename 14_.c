@@ -4,15 +4,13 @@
 
 int main()
 {
-    int a = 10;
-    printf("Value of a number 'A' is %d.\n", a);
-    printf("Increment operator (++a): Increase value then use the value\n");
-    printf("Before: %d\t", a);
-    printf("After: %d\t\n", ++a);
-    a = 10;
-    printf("Decrement operator (--a): Decrease value then use the value\n");
-    printf("Before: %d\t", a);
-    printf("After: %d\t\n", --a);
-    printf("NOTE: Only Pre variant of increment and decrement operator was used.");
+    int a;
+    printf("Enter a value of A: ");
+    scanf("%d", &a);
+    printf("\nA: \t %d\n", a);
+    printf("++A: \t %d\n", ++a);
+    printf("A: \t %d\n", a);
+    printf("--A: \t %d\n", --a);
+    printf("A: \t %d\n", a);
     return 0;
 }

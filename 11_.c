@@ -11,6 +11,6 @@ int main()
     scanf("%d %d %d", &a, &b, &c);
     s = (a + b + c) / 2.0;
     area = sqrt(s * (s - a) * (s - b) * (s - c));
-    printf("Area of trianle is %.2f sq units.", area);
+    printf("Area of triangle: %.2f sq units", area);
     return 0;
 }

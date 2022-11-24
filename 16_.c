@@ -4,15 +4,24 @@
 
 int main()
 {
-    int a = 10;
-    printf("Value of a number 'A' is %d.\n", a);
-    printf("Pre increment operator (++a): Increase value then use the value\n");
-    printf("Before: %d\t", a);
-    printf("After: %d\t\n", ++a);
-    a = 10;
-    printf("Post increment operator (a++): Use the original value then increase\n");
-    printf("Before: %d\t", a);
-    printf("After: %d\t\n", a++);
-    printf("NOTE: Although the value has changed but original value is used in expression.'A' is now %d.\nAlso decrement operators also work the same.", a);
+    int a;
+    printf("Enter value of A: ");
+    scanf("%d", &a);
+    printf("Pre Increment:\n");
+    printf("\tBefore A = %d\n", a);
+    printf("\t++A = %d\n", ++a);
+    printf("\tAfter A = %d\n", a);
+    printf("Post Increment:\n");
+    printf("\tBefore A = %d\n", a);
+    printf("\tA++ = %d\n", a++);
+    printf("\tAfter A = %d\n", a);
+    printf("Pre Decrement:\n");
+    printf("\tBefore A = %d\n", a);
+    printf("\t--A = %d\n", --a);
+    printf("\tAfter A = %d\n", a);
+    printf("Post Decrement:\n");
+    printf("\tBefore A = %d\n", a);
+    printf("\tA-- = %d\n", a--);
+    printf("\tAfter A = %d\n", a);
     return 0;
 }

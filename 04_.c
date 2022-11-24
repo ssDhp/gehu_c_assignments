@@ -12,6 +12,6 @@ int main()
     ta = 0.05 * baseSalary;
     da = 0.03 * baseSalary;
     totalSalary = baseSalary + hra + ta + da;
-    printf("Base salary: %d\n\tHRA: %.2f\n\tTA: %.2f\n\tDA: %.2f\nTotal Salary: %.2f", baseSalary, hra, ta, da, totalSalary);
+    printf("Base salary:\t%.2f\n\tHRA:\t%.2f\n\t TA:\t%.2f\n\t DA:\t%.2f\nTotal Salary:\t%.2f", (float)baseSalary, hra, ta, da, totalSalary);
     return 0;
 }

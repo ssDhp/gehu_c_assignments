@@ -5,12 +5,12 @@
 int main()
 {
     int a, b, temp;
-    printf("Enter values of 'A' and 'B': ");
+    printf("Enter values of A and B: ");
     scanf("%d %d", &a, &b);
-    printf("Value of 'A' is %d and Value of 'B' is %d.\n", a, b);
+    printf("Before swap\n\tA: %d\n\tB: %d\n", a, b);
     temp = a;
     a = b;
     b = temp;
-    printf("After swap, value of 'A' is %d and Value of 'B' is %d.\n", a, b);
+    printf("After swap\n\tA: %d\n\tB: %d\n", a, b);
     return 0;
 }

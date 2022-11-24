@@ -5,15 +5,15 @@
 int main()
 {
     int a, b;
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
+    char ch;
+    printf("Enter two integers and char: ");
+    scanf("%d %d %c", &a, &b, &ch);
     printf("%d + %d = %d\n", a, b, a + b);
     printf("%d - %d = %d\n", a, b, a - b);
     printf("%d * %d = %d\n", a, b, a * b);
     printf("%d / %d = %d\n", a, b, a / b);
     printf("%d %% %d = %d\n", a, b, a % b);
-    printf("Implicit Typecasting:\n(Automatically conversion of datatypes)\n\t 9.0(float) / 3(int) = %.2f(float)\n", 9.0 / 3);
-    printf("Explicit Typecasting:\n(Forcing conversion of datatypes)\n\t 12(int) / 3(int) = %.2f(float)\n", (float)12 / 3);
-
+    printf("Implicit Typecasting: \n\t %c + 3 = %c\n", ch, ch + 3);
+    printf("Explicit Typecasting: \n\t (float)%d / %d = %.2f\n", a, b, (float)a / b);
     return 0;
 }

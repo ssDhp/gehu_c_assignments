@@ -5,11 +5,10 @@
 
 int main()
 {
-    int principal, rate, time, si, ci;
+    int p, r, t, si, ci;
     printf("Enter principal, rate and time: ");
-    scanf("%d %d %d", &principal, &rate, &time);
-    printf("\nYou have entered:\n\tPrincipal: %d\n\tRate: %d\n\tTime:%d\n\n", principal, rate, time);
-    printf("Simple Intrest is %d\n", (principal * rate * time) / 100);
-    printf("Compound Intrest is %.2lf\n", principal * pow((1 + (double)rate / 100), time) - principal);
+    scanf("%d %d %d", &p, &r, &t);
+    printf("Simple Interest: %d\n", (p * r * t) / 100);
+    printf("Compound Interest: %.2lf\n", p * pow((1 + (double)r / 100), t) - p);
     return 0;
 }

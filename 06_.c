@@ -5,10 +5,8 @@
 int main()
 {
     int code;
-    char ch;
-    printf(" Enter an ASCII code:");
+    printf("Enter an ASCII code:");
     scanf("%d", &code);
-    ch = (char)code;
-    printf("%d is associated with the character '%c'.", code, ch);
+    printf("%d is ASCII code for '%c'", code, (char)code);
     return 0;
 }
